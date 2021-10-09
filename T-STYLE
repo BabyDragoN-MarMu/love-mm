@@ -1,13 +1,10 @@
 #==========================================================#
 # CODED BY MARMU
 #==========================================================#
-#==========================================#
 cyan='\e[0;36m'
 
 lightgreen='\e[1;32m'
-
 red='\e[1;31m'
-
 yellow='\e[1;33m'
 #==========================================#
 
@@ -117,7 +114,7 @@ echo " "
 pkg install figlet -y
 echo ""
 clear
-echo "                   "DONE  ENJOY  BRO  | lolcat
+echo "                   "DONE  BRO  | lolcat
 echo " "
 sleep 0.2
 clear
@@ -126,10 +123,11 @@ figlet -f big ' THANKS ' | lolcat
 figlet -f big '  FOR   ' | lolcat
 figlet -f big '  ALL ' | lolcat
 
-echo "  CUSTOMIZE DONE NOW EXIT FROM TERMUX AND OPEN AGAIN AFTER 5 SECOUNDS
- " | lolcat
+echo "  NOW EXIT FROM TERMUX OR OPEN NEXT SESSION 
+" | lolcat
 sleep 0.2
 echo " "
 sleep 1.0
 cd $HOME
-exit
+exit 
+
